@@ -101,7 +101,7 @@
         <i class="fa fa-plus"></i>&nbsp;&nbsp;Create New Round
       </button>
       <!-- rotate this round -->
-      <button ng-click="vm.showRotateRound = true" ng-if="vm.round > vm.currentRound">
+      <button ng-click="vm.showRotateRound = true" ng-if="(!vm.currentRound && vm.round) || vm.round > vm.currentRound">
         <i class="fa fa-toggle-right"></i>&nbsp;&nbsp;Use These Ads
       </button>
     </div>
