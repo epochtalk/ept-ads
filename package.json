@@ -1,6 +1,6 @@
 {
   "name": "ept-ads",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Ads Integration Module",
   "main": "index.js",
   "scripts": {
